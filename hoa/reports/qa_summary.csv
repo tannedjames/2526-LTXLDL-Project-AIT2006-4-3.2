@@ -1,0 +1,2 @@
+rain_error_count,wind_error_count,pressure_error_count,temperature_error_count,pm25_error_count,pm10_error_count,pm25_logic_warn_count,weather_hourly_records,air_hourly_records,weather_daily_days,air_daily_days,total_days_merged
+0,0,0,0,0,0,0,366,8784,366,366,366
