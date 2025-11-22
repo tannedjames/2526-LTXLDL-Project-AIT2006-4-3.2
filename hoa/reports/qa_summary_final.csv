@@ -1,0 +1,46 @@
+dataset,rule,count,total,percent,decision
+weather,Weather Missing date,0,366,0.0
+weather,Weather Missing tavg,0,366,0.0
+weather,Weather Missing tmin,0,366,0.0
+weather,Weather Missing tmax,0,366,0.0
+weather,Weather Missing prcp,12,366,3.2787,Fill NA by using interpolation
+weather,Weather Missing snow,366,366,100.0,Drop column
+weather,Weather Missing wdir,366,366,100.0,Drop column
+weather,Weather Missing wspd,0,366,0.0
+weather,Weather Missing wpgt,366,366,100.0,Drop column
+weather,Weather Missing pres,0,366,0.0
+weather,Weather Missing tsun,366,366,100.0,Drop column
+weather,Weather Missing is_deleted_wt,0,366,0.0
+air_quality,AQ Missing time,0,8784,0.0
+air_quality,AQ Missing pm10 (μg/m³),0,8784,0.0
+air_quality,AQ Missing pm2_5 (μg/m³),0,8784,0.0
+air_quality,AQ Missing ozone (μg/m³),0,8784,0.0
+air_quality,AQ Missing sulphur_dioxide (μg/m³),0,8784,0.0
+air_quality,AQ Missing nitrogen_dioxide (μg/m³),0,8784,0.0
+air_quality,AQ Missing carbon_dioxide (ppm),7183,8784,81.7737,Drop column
+air_quality,AQ Missing carbon_monoxide (μg/m³),0,8784,0.0
+air_quality,AQ Missing uv_index (),0,8784,0.0
+air_quality,AQ Missing aerosol_optical_depth (),0,8784,0.0
+air_quality,AQ Missing dust (μg/m³),0,8784,0.0
+air_quality,AQ Missing uv_index_clear_sky (),0,8784,0.0
+air_quality,AQ Missing methane (μg/m³),7183,8784,81.7737,Drop column
+air_quality,AQ Missing is_deleted_aq,0,8784,0.0
+weather,Weather negative prcp,0,366,0.0
+weather,Weather negative wspd,0,366,0.0
+weather,Weather negative pres,0,366,0.0
+air_quality,AQ pm10 (μg/m³),0,8784,0.0
+air_quality,AQ pm2_5 (μg/m³),0,8784,0.0
+air_quality,AQ ozone (μg/m³),0,8784,0.0
+air_quality,AQ sulphur_dioxide (μg/m³),0,8784,0.0
+air_quality,AQ nitrogen_dioxide (μg/m³),0,8784,0.0
+air_quality,AQ carbon_monoxide (μg/m³),0,8784,0.0
+air_quality,AQ uv_index (),0,8784,0.0
+air_quality,AQ aerosol_optical_depth (),0,8784,0.0
+air_quality,AQ dust (μg/m³),0,8784,0.0
+air_quality,AQ uv_index_clear_sky (),0,8784,0.0
+air_quality,AQ is_deleted_aq,0,8784,0.0
+air_quality,PM2.5 > PM10,0,8784,0.0
+weather,Weather duplicate timestamps,0,366,0.0
+air_quality,AQ duplicate timestamps,0,8784,0.0
+weather,Weather missing timestamps,0,366,0.0
+air_quality,AQ missing timestamps,0,8784,0.0
