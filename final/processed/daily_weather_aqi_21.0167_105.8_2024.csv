@@ -8,6 +8,6 @@ wspd_mean,10.35
 pres_mean,1010.67
 pm25_p95,83.02
 pm10_p95,112.82
-pm25_exceed_days,366.0
-pm10_exceed_days,364.0
+pm25_exceed_days,360.0
+pm10_exceed_days,258.0
 uv_max_daily_mean,1.17

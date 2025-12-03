@@ -8,6 +8,6 @@ wspd_mean,10.35,km/h,mean
 pres_mean,1010.67,hPa,mean
 pm25_p95,83.02,μg/m³,quantile
 pm10_p95,112.82,μg/m³,quantile
-pm25_exceed_days,366.0,day,count
-pm10_exceed_days,364.0,day,count
+pm25_exceed_days,360.0,day,count
+pm10_exceed_days,258.0,day,count
 uv_max_daily_mean,1.17,index,mean
