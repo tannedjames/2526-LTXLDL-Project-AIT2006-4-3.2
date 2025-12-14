@@ -1,13 +1,13 @@
-criteria,value
-temp_mean,25.16
-temp_p50,26.7
-temp_p95,31.4
-prcp_sum,2306.2
-prcp_days_than_1mm,169.0
-wspd_mean,10.35
-pres_mean,1010.67
-pm25_p95,83.02
-pm10_p95,112.82
-pm25_exceed_days,360.0
-pm10_exceed_days,258.0
-uv_max_daily_mean,1.17
+criteria,value,unit of measurement,formula
+temp_mean,25.16,oC,mean
+temp_p50,26.7,oC,quantile
+temp_p95,31.4,oC,quantile
+prcp_sum,2306.2,mm,sum
+prcp_days_than_1mm,169.0,day,count
+wspd_mean,10.35,km/h,mean
+pres_mean,1010.67,hPa,mean
+pm25_p95,83.02,μg/m³,quantile
+pm10_p95,112.82,μg/m³,quantile
+pm25_exceed_days,360.0,day,count
+pm10_exceed_days,258.0,day,count
+uv_max_daily_mean,1.17,index,mean
