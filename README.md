@@ -18,5 +18,5 @@ Các file mã nguồn chính nằm trong thư mục `src/`:
 Để chạy được dự án này, cần cài đặt các thư viện cần thiết thông qua file `requirements.txt`.
 **Trên Windows:**
 ```bash
-python -m venv venv
-venv\Scripts\activate
+.venv\Scripts\activate
+
