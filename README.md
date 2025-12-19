@@ -1,30 +1,22 @@
-# Phân tích Dữ liệu Thời tiết & Chất lượng Không khí Hà Nội 2024
+# Dự án Phân tích và Dự báo Thời tiết
 
-Dự án này tập trung vào việc thu thập, xử lý và phân tích các đặc điểm khí tượng và chất lượng không khí tại Hà Nội trong năm 2024. Mục tiêu là tìm ra các xu hướng biến động theo mùa và mối tương quan giữa các yếu tố thời tiết với mức độ ô nhiễm không khí.
+Dự án này tập trung vào việc xử lý dữ liệu thô, thống kê mô tả, trực quan hóa và xây dựng mô hình dự báo nhiệt độ.
 
-## 📂 Nguồn dữ liệu
+## 📁 Cấu trúc thư mục và Trách nhiệm từng file
 
-Dữ liệu được sử dụng trong dự án bao gồm:
+Các file mã nguồn chính nằm trong thư mục `src/`:
 
-1.  **Dữ liệu Thời tiết:**
-    * Nguồn: [Meteostat (Trạm 48820)](https://meteostat.net/en/station/48820)
-    * Phạm vi: Hà Nội, năm 2024.
-2.  **Chất lượng Không khí:**
-    * Nguồn: [Open-Meteo Air Quality API](https://open-meteo.com/en/docs/air-quality-api)
-    * Các chỉ số: PM10, PM2.5, Ozone, SO2, NO2, CO, UV Index, v.v.
+* **`cleaning_data.ipynb`**: Chịu trách nhiệm tiền xử lý dữ liệu. Bao gồm các bước làm sạch, xử lý giá trị thiếu (null), định dạng lại kiểu dữ liệu và loại bỏ các giá trị ngoại lai (outliers).
+* **`summary_statistics.ipynb`**: Thực hiện tính toán các chỉ số thống kê mô tả (trung bình, trung vị, độ lệch chuẩn...) để hiểu rõ hơn về phân phối của tập dữ liệu.
+* **`visualize.ipynb`**: Trực quan hóa dữ liệu bằng biểu đồ. Giúp tìm ra xu hướng, sự tương quan giữa các biến thời tiết thông qua hình ảnh.
+* **`temp_predict.ipynb`**: Xây dựng, huấn luyện và đánh giá các mô hình học máy để dự báo nhiệt độ trong tương lai.
 
-## 📋 Yêu cầu hệ thống
+---
 
-* **Python:** Phiên bản 3.8 trở lên.
-* Các thư viện phụ thuộc chính:
-    * `pandas`
-    * `numpy`
-    * `matplotlib` / `seaborn`
-    * `requests` (để gọi API nếu cần)
+## 🛠 Hướng dẫn cài đặt và sử dụng
 
-## ⚙️ Cài đặt
-
-Để thiết lập môi trường chạy, vui lòng thực hiện lệnh sau:
-
+Để chạy được dự án này, cần cài đặt các thư viện cần thiết thông qua file `requirements.txt`.
+**Trên Windows:**
 ```bash
-pip install -r requirements.txt
+.venv\Scripts\activate
+
